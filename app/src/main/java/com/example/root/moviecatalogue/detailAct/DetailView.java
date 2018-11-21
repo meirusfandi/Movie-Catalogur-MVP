@@ -1,0 +1,1 @@
+package com.example.root.moviecatalogue.detailAct;import com.example.root.moviecatalogue.model.MovieModel;import java.util.List;public interface DetailView {    void displayTrailers(List<MovieModel> trailers);    void setFavoriteFabIcon(boolean isFavorited);}

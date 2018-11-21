@@ -1,0 +1,1 @@
+package com.example.root.moviecatalogue.baseMVP;public interface BasePresenter<V extends BaseView, I extends BaseInteractor> {    void onAttach(V baseView);    void onDetach();    V getBaseView();    I getBaseInteractor();}

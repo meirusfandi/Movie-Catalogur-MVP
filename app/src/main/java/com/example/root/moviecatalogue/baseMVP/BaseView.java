@@ -1,0 +1,1 @@
+package com.example.root.moviecatalogue.baseMVP;import android.support.annotation.StringRes;public interface BaseView {    void onError(@StringRes int id);    void onError(String message);    void showMessage(@StringRes int id);    void showMessage(String message);}

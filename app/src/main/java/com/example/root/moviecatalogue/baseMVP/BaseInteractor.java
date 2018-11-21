@@ -1,0 +1,1 @@
+package com.example.root.moviecatalogue.baseMVP;public interface BaseInteractor<T> {    T getService();}

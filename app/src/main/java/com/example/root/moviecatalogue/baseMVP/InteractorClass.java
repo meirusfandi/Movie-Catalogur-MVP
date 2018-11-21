@@ -1,0 +1,1 @@
+package com.example.root.moviecatalogue.baseMVP;public class InteractorClass<T> implements BaseInteractor<T> {    private T service;    public InteractorClass(T service) {        this.service = service;    }    public InteractorClass(){    }    @Override    public T getService() {        return service;    }}
